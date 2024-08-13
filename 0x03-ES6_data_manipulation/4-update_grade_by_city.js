@@ -10,6 +10,6 @@ function updateStudentGradeByCity(students, city, newGrades){
 				grade: gradeObject ? gradeObject.grade :'N/A',
 			};
 		});
-}
+};
 
 export default updateStudentGradeByCity;
